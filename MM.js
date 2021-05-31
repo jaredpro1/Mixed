@@ -42,4 +42,22 @@ let countryArray1= [
     ' tamale',     ' tostada',      ' turkey',      ' tuna ',
     'watermelon',  'yams'
   ]
-  console.log(foodsArray.split(','));
+ //clothing Array
+ let clothingArray= [
+ 'apron',         'baseball-cap',    'belt',
+ 'bikini',        'blazer',          'blouse',
+ 'boots',         'bow-tie',         'boxer-shorts',
+ 'bra',           'cardigan',        'coat',
+ 'dinner-jacket', 'dress',           'dressing-gown',
+ 'gloves',        'hat',             'Night-Gown',
+ 'Overalls',      'Pajamas',         ' Parachute-Pants',
+ 'Pointe',        'Polo',            'Ponchos-Capes',
+ 'Poodle-Skirts', 'Referee-Uniform', ' Rugby-Shirt',
+ 'Sari',          'Sarong',          'Scarf',
+ 'Scrubs',        'Shawls',          'Shorts',
+ 'Skating-Dress', 'Ski-Suit',        'Skirt',
+ 'Slacks',        'Soccer-Shirt',    'Socks'
+]
+;
+  
+  console.log(clothingArray.split(','));
