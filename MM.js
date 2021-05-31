@@ -1,4 +1,4 @@
-//Facts about Europe program
+//Combination sentence
 
 //Country Array 
 let countryArray1= [
@@ -34,7 +34,7 @@ let countryArray1= [
     ' macaroni',   ' mustard',      ' meatloaf ',   'oranges',
     ' olives',     ' onion  ',      'popcorn',      ' peppers',
     ' peaches',    ' pears',        ' pork',        ' pretzels',
-    ' potatoes',   ' popsicle',     ' pomegranate', ' pimento    ',
+    ' potatoes',   ' popsicles',     ' pomegranate', ' pimento    ',
     'quail',       'radishes',      ' raspberries', ' rum',
     ' raisins',    ' ravioli',      ' relish  ',    'strawberries',
     ' salmon',     ' sage',         ' steak',       ' soup',
@@ -63,7 +63,7 @@ let countryArray1= [
     let randnum1 = Math.floor(Math.random()*clothingArray.length)
     let randnum2 = Math.floor(Math.random()*foodsArray.length)
     let randnum3 = Math.floor(Math.random()*countryArray1.length)
- return `Try on ${clothingArray[randnum1]}, and eat a ${foodsArray[randnum2]}, and journey ${countryArray1[randnum3]}`
+ return `Maybye try on a  ${clothingArray[randnum1]}, and eat some${foodsArray[randnum2]}, and journey ${countryArray1[randnum3]}.`
 }
 
   
