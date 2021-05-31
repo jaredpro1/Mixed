@@ -59,5 +59,12 @@ let countryArray1= [
  'Slacks',        'Soccer-Shirt',    'Socks'
 ]
 ;
+ function randomize(){
+    let randnum1 = Math.floor(Math.random()*clothingArray.length)
+    let randnum2 = Math.floor(Math.random()*foodsArray.length)
+    let randnum3 = Math.floor(Math.random()*countryArray1.length)
+ return `Try on ${clothingArray[randnum1]}, and eat a ${foodsArray[randnum2]}, and journey ${countryArray1[randnum3]}`
+}
+
   
-  console.log(clothingArray.split(','));
+  console.log(randomize());
