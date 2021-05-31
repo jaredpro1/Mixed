@@ -63,7 +63,7 @@ let countryArray1= [
     let randnum1 = Math.floor(Math.random()*clothingArray.length)
     let randnum2 = Math.floor(Math.random()*foodsArray.length)
     let randnum3 = Math.floor(Math.random()*countryArray1.length)
- return `Maybye try on a  ${clothingArray[randnum1]}, and eat some${foodsArray[randnum2]}, and journey ${countryArray1[randnum3]}.`
+ return `Maybye try on a  ${clothingArray[randnum1]}, and some${foodsArray[randnum2]}, and journey ${countryArray1[randnum3]}.`
 }
 
   
