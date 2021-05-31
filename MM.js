@@ -1,5 +1,6 @@
 //Facts about Europe program
 
+//Country Array 
 let countryArray1= [
     'Albania',     ' Andorra',               ' Armenia',
     'Austria',     'Azerbaijan',             'Belarus',
@@ -20,5 +21,25 @@ let countryArray1= [
     'Ukraine',     ' United-Kingdom',        ' Vatican-City'
   ]
 
- 
-  console.log(countryArray1.split(','))
+//Foods array
+  let foodsArray = [
+    'blueberries', ' blackberries', ' banana',      ' brandy',
+    ' beef',       ' butter',       ' beets',       'Pak-Choy',
+    'Paracress',   'Parsnip',       'Peas',         'Pearl-Onion',
+    'Pignut',      'Potato',        'Pumpkin',      'cider',
+    ' crackers',   ' cantaloupe',   ' cauliflower', ' cranberries',
+    'Doritos',     ' dressing',     'flan',         'fries',
+    'jam',         'jäger',         ' juice',       'lasange',
+    'lettuce ',    'mayo',          ' mushrooms',   ' mozzarella',
+    ' macaroni',   ' mustard',      ' meatloaf ',   'oranges',
+    ' olives',     ' onion  ',      'popcorn',      ' peppers',
+    ' peaches',    ' pears',        ' pork',        ' pretzels',
+    ' potatoes',   ' popsicle',     ' pomegranate', ' pimento    ',
+    'quail',       'radishes',      ' raspberries', ' rum',
+    ' raisins',    ' ravioli',      ' relish  ',    'strawberries',
+    ' salmon',     ' sage',         ' steak',       ' soup',
+    ' salami',     ' sub',          ' sandwich',    'tomatoes',
+    ' tamale',     ' tostada',      ' turkey',      ' tuna ',
+    'watermelon',  'yams'
+  ]
+  console.log(foodsArray.split(','));
